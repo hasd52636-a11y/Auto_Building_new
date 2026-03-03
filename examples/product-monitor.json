@@ -1,0 +1,21 @@
+{
+  "name": "产品监控系统",
+  "description": "监控竞品价格和动态",
+  "primaryCategories": ["智能母体", "产品监控"],
+  "secondaryCategories": {
+    "motherbody": ["agent", "skill", "mcp", "prompt", "opensource_soft"],
+    "产品监控": ["亚马逊", "淘宝", "京东", "拼多多"]
+  },
+  "sources": [
+    { "id": "amazon", "name": "亚马逊中国", "type": "directory", "url": "https://www.amazon.cn", "enabled": true },
+    { "id": "taobao", "name": "淘宝", "type": "directory", "url": "https://www.taobao.com", "enabled": true },
+    { "id": "jd", "name": "京东", "type": "directory", "url": "https://www.jd.com", "enabled": true }
+  ],
+  "collectionRules": {
+    "product": {
+      "contentType": "all",
+      "keywords": ["新品", "降价", "促销"],
+      "maxPerDay": 100
+    }
+  }
+}

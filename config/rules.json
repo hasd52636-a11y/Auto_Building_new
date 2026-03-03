@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "id": "rule-github-readme",
+      "name": "GitHub README 表格",
+      "pattern": "\\|\\s*([^|]+)\\s*\\|\\s*(https?://[^|]+)\\s*\\|",
+      "type": "regex",
+      "enabled": true
+    }
+  ]
+}

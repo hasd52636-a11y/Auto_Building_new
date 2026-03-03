@@ -1,0 +1,20 @@
+{
+  "name": "新闻早报系统",
+  "description": "采集科技/财经/创投新闻",
+  "primaryCategories": ["智能母体", "新闻早报"],
+  "secondaryCategories": {
+    "motherbody": ["agent", "skill", "mcp", "prompt", "opensource_soft"],
+    "新闻早报": ["科技", "财经", "创投"]
+  },
+  "sources": [
+    { "id": "36kr", "name": "36kr", "type": "rss", "url": "https://36kr.com/feed/", "enabled": true },
+    { "id": "huxiu", "name": "虎嗅", "type": "rss", "url": "https://www.huxiu.com/rss", "enabled": true },
+    { "id": "ithome", "name": "IT之家", "type": "rss", "url": "https://www.ithome.com/rss", "enabled": true }
+  ],
+  "collectionRules": {
+    "news": {
+      "contentType": "article",
+      "maxPerDay": 50
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "电商资讯系统",
+  "description": "跨境电商行业资讯采集",
+  "primaryCategories": ["智能母体", "跨境电商", "电商资讯"],
+  "secondaryCategories": {
+    "motherbody": ["agent", "skill", "mcp", "prompt", "opensource_soft"],
+    "跨境电商": ["亚马逊", "Shopify", "独立站"],
+    "电商资讯": ["行业动态", "平台政策", "物流运输"]
+  },
+  "sources": [
+    { "id": "amazon-seller", "name": "亚马逊卖家论坛", "type": "directory", "url": "https://sellercentral.amazon.com", "enabled": true },
+    { "id": "shopify-blog", "name": "Shopify博客", "type": "rss", "url": "https://www.shopify.com/blog/rss.xml", "enabled": true },
+    { "id": "shopify-community", "name": "Shopify社区", "type": "directory", "url": "https://community.shopify.com", "enabled": true }
+  ],
+  "collectionRules": {
+    "ecommerce": {
+      "contentType": "all",
+      "maxPerDay": 30
+    }
+  }
+}
