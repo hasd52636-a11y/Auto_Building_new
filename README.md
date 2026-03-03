@@ -1,6 +1,8 @@
-# Auto-Building 🤖
+# Auto-Building 🏗️
 
 > AI 工具资源自动采集、审核、发布系统
+
+**演示网站**: [https://sora.wboke.com/](https://sora.wboke.com/)
 
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
