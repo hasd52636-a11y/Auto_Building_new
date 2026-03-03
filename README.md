@@ -5,7 +5,7 @@
 **演示网站**: [https://sora.wboke.com/](https://sora.wboke.com/)
 
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://i.mji.rip/2026/03/03/bb303c5facd49467141e67f4d44c91e4.png" />
+<img width="1200" height="475" alt="GHBanner" src="https://picui.ogmua.cn/s1/2026/03/03/69a67f53cbe65.webp" />
 </div>
 
 ## 快速开始
